@@ -1,27 +1,27 @@
 class Toggl < Formula
   desc "Command-line client for Toggl Track"
   homepage "https://github.com/acpoppe/toggl-cli"
-  version "1.0.0"
+  version "1.1.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/acpoppe/toggl-cli/releases/download/v1.0.0/toggl-aarch64-macos.tar.gz"
-      sha256 "c14e26607a7e198318dedc6ecadfd25cce6ee3eb9d581691f3ffcb21a368c4b2"
+      url "https://github.com/acpoppe/toggl-cli/releases/download/v1.1.0/toggl-aarch64-macos.tar.gz"
+      sha256 "5983edcf4ed2ad4c0d6013b0d05e78eb22d288f3ad7ec0712d58566a3ce2e537"
     end
     on_intel do
-      url "https://github.com/acpoppe/toggl-cli/releases/download/v1.0.0/toggl-x86_64-macos.tar.gz"
-      sha256 "bfddcde7176acb41bd84bffa18cf9eb88101c2f901bd552881c1f4469970b2fc"
+      url "https://github.com/acpoppe/toggl-cli/releases/download/v1.1.0/toggl-x86_64-macos.tar.gz"
+      sha256 "b1b405ef84569c46b05ff0cce230edc2f2dff525fca18ec90f9aba70efecddea"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/acpoppe/toggl-cli/releases/download/v1.0.0/toggl-aarch64-linux.tar.gz"
-      sha256 "1caa8ac38ca24e5f7a3925bdc2f21bae002caf19caa30301d5425656080994e8"
+      url "https://github.com/acpoppe/toggl-cli/releases/download/v1.1.0/toggl-aarch64-linux.tar.gz"
+      sha256 "bf2fe9878f828294960ecabda8385f072eefe0127d2ea2908a83049349708c61"
     end
     on_intel do
-      url "https://github.com/acpoppe/toggl-cli/releases/download/v1.0.0/toggl-x86_64-linux.tar.gz"
-      sha256 "cd3799567946736ee11328edfd02b9dc9105ede2e22a835877f2cc83eb1a0b9e"
+      url "https://github.com/acpoppe/toggl-cli/releases/download/v1.1.0/toggl-x86_64-linux.tar.gz"
+      sha256 "81174efc5fe6352efeac4c0afe28353b04e6b5aec27679191d879a50a9837ef6"
     end
   end
 
